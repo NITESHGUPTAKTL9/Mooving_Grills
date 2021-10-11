@@ -1,0 +1,121 @@
+
+.navbar1-body
+{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+color: white;
+text-decoration: none;
+height: 100%;
+   
+}
+.buyfromamazon{
+    text-decoration: none;
+    color: #000000;
+}
+.amazon a:hover{
+    text-decoration: none;
+}
+.amazon-btn Button
+{
+   height: 25px;
+   font-size: 13px;
+
+}
+.icon
+{
+    font-size: 21px;
+    margin-left: 5px;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+
+}
+.social-icons a
+{
+   color : rgb(36, 58, 87);
+   font-size: 21px;
+   margin: 1px;
+
+}
+
+.topbar-right
+{
+    display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.topbar-left
+{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.topbar-span span
+{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif ;
+    
+}
+
+.topbar-span span:hover
+{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.hov-icon:hover
+{
+    transform: scale(1.15);
+}
+
+@media screen and (max-width:600px) {
+    .topbar-right
+    {
+        display: none;
+    }
+    .topbar-left
+    {
+        justify-content: center;
+    }
+    .amazon-btn Button
+    {
+      
+        font-size: 11px;
+    }
+    
+}
+.topbar-hr{
+    border: 1px solid rgb(236, 236, 236);
+    margin-bottom: 0px;
+}
+.m-btn
+{
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+   font-size: 19px;
+   font-family: 'Poppins' , sans-serif;
+   font-weight: 1000;
+   background-color: rgb(31, 38, 63);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   border: none;
+}
+.topbar-icons
+{
+    margin-right: 10px;
+}

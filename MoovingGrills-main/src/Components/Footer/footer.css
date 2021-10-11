@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: "Mr Eaves XL Modern", sans-serif
+
+}
+
+.footer__body{
+	width: 100%;
+	bottom: 0;
+}
+.footer{
+	margin:0;
+	padding:0;
+	box-sizing: content-box !important;
+	
+}
+
+.container__footer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row__footer{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+	margin-left: 0px;
+}
+.footer{
+	
+	background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2364544e' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23484741' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2372635a' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2342413c' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23817267' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%233b3b37' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%238f8174' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23353532' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%239c9182' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%232f2f2e' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aaa290' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23292929' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    padding: 70px 0;
+
+	
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 13px;
+	color: white;
+	font-family: "Mr Eaves XL Modern", sans-serif;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 600;
+	position: relative;
+	text-align: left;
+	margin-right: 30px;
+}
+
+
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 11px;
+	text-transform: capitalize;
+	color:white;
+	text-decoration: none;
+	font-weight: 400;
+	text-align: left;
+	display: block;
+	transition: all 0.3s ease;
+	font-family: "Mr Eaves XL Modern", sans-serif;
+	
+}
+.footer-col ul li a:hover{
+	color:white;
+
+}
+.footer-col .social-links a{
+    text-decoration: none;
+}
+
+.footer-col .social-links a img{
+   
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;	text-align: center;
+	border-radius: 50%;
+	
+	transition: all 0.5s ease;
+}
+
+
+.footer_p{
+	color:white;
+   font-size: 11px;
+	font-family: "Mr Eaves XL Modern", sans-serif;
+
+
+}
+.footer__p{
+
+     font-size: 14px;
+	 border-bottom: 1px solid orange;
+	 width:120px;
+ }
+.city__p{
+    color:white;
+    font-size: 11px;
+	font-family: "Mr Eaves XL Modern", sans-serif;
+
+}
+.payment__image{
+	width: 270px;
+    height: 122px;
+}
+
+.footer__logo{
+	height: 60%;
+	width: 100%;
+    object-fit:contain;
+}
+ 
+
+
+@media(max-width: 768px){
+  .footer-col{
+    width: 50%;
+    margin-top:0px;
+   
+}
+
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.logo_footer{
+    width: 100%;
+    margin-bottom: -66px;
+}
+}
+
+
+.need-help-ul
+{
+	margin-left: 0px;
+}
+
+.all-rights
+{
+	margin-right: 0px;
+	border-bottom: 1px solid orange;
+}
+ul{
+	padding-inline-start: 0px !important;
+
+}
+.copy
+{
+	font-size: 12px !important;
+	color: white;
+	text-align: center;
+}
+
+
+.social-icons-footer a
+{
+   color : rgb(119, 199, 252);
+   font-size: 21px;
+   margin: 3px;
+}
+.social-icons-footer  a:hover
+{
+	transform: scale(1.4);
+}
+
+
+.youtube
+{
+	color: red;
+}
+.facebook
+{
+color: rgb(57, 159, 255);
+}
+.instagram
+{
+	color: white;
+}
+.linkedin
+{
+	color: rgb(73, 158, 255);
+}
+.google 
+{
+	color: white;
+}
+.pinterest
+{
+	color: rgb(255, 0, 85);
+}
+
+.social-container
+{
+	position: relative;
+}
+.scroll-btn{
+ 
+	height: 50px;
+	width: 51px;
+	position: fixed;
+	bottom: 19px;
+	border-radius:50%;
+	right: 20px;
+
+  
+}
